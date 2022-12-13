@@ -1,0 +1,115 @@
+// app global css in SCSS form
+body {
+  background-color: $body-background-color;
+  color: $body-font-color;
+  font-weight: 300;
+}
+.q-drawer--left {
+  .q-list {
+    .q-item {
+      min-height: 60px;
+      border-left: 5px solid transparent;
+      color: white;
+      &.q-router-link--active, .q-item--active {
+          border-left: 5px solid $primary;
+          background-color: #696969;
+      }
+      //&.exact-active-class {
+      //  border-left: 5px solid $primary;
+      //  background-color: #696969;
+      //}
+      .q-item__section--avatar {
+        min-width: 40px;
+      }
+    }
+  }
+}
+
+.content-index {
+  padding: 24px 24px 32px;
+}
+
+.q-header.q-layout__section--marginal {
+  background-color: white;
+  color: $body-font-color;
+}
+
+.x-dialog {
+  max-width: 90vw !important;
+  &--title {
+    font-size: 18px;
+    color: $blue;
+    font-weight: 500;
+  }
+}
+
+.logo {
+  max-height: 30px;
+}
+
+@import "layouts/login";
+//@import "helpers/form";
+@import '~@mathieustan/vue-datepicker/dist/vue-datepicker.min.css';
+//@import '~vue2-timepicker/dist/VueTimepicker.css';
+//@import '~vue-ctk-date-time-picker/dist/vue-ctk-date-time-picker.css';
+
+.q-field {
+  .vd-picker__input-icon__wrapper {
+    height: 18px !important;
+    justify-content: flex-start !important;
+  }
+
+  .vd-picker__input-icon {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+  }
+
+  .vd-picker__input-wrapper input {
+    width: 90px !important;
+    font-size: 12px !important;
+  }
+
+  .vd-picker__input input {
+    padding: 2px 0 !important;
+    font-size: $input-font-size !important;
+  }
+
+  .vd-picker__header-date {
+    font-size: 18px !important;
+  }
+
+  //.vue__time-picker input.display-time {
+  //  border: none;
+  //}
+  //
+  //.vue__time-picker-dropdown, .vue__time-picker .dropdown {
+  //  z-index: 7001;
+  //}
+  //
+  //.vue__time-picker-dropdown {
+  //  z-index: 7002;
+  //}
+}
+
+.vd-menu__content {
+  z-index: 6001 !important;
+}
+
+.list-states {
+  .col:first-child .x-btn-state {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .col:last-child .x-btn-state {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+.select-truncate {
+  .q-field__native span {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+}

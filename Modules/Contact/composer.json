@@ -1,0 +1,25 @@
+{
+    "name": "eriquegasparcarlos/contact",
+    "description": "",
+    "authors": [
+        {
+            "name": "Carlos Alfredo Erique",
+            "email": "eriquegasparcarlos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Contact\\Providers\\ContactServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Contact\\": ""
+        }
+    }
+}

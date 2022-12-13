@@ -1,0 +1,43 @@
+{
+  "name": "qfrontend",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "app.qfrontend.crm",
+  "author": "Carlos Erique Gaspar <eriquegasparcarlos@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@mathieustan/vue-datepicker": "^0.2.11",
+    "@quasar/extras": "^1.0.0",
+    "apexcharts": "^3.28.1",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "quasar": "^1.0.0",
+    "vue-apexcharts": "^1.6.2"
+  },
+  "devDependencies": {
+    "@quasar/app": "^2.0.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

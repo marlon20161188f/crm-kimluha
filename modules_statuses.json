@@ -1,0 +1,9 @@
+{
+    "Auth": true,
+    "Contact": true,
+    "Dashboard": true,
+    "Notification": true,
+    "Role": true,
+    "State": true,
+    "User": true
+}
